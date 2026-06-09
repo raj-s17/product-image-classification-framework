@@ -1,0 +1,4 @@
+Model,Test Accuracy,Macro F1,Parameters
+Custom CNN,0.9824,0.7837,"652,069"
+MobileNetV2,0.9875,0.7869,"2,587,205"
+EfficientNetB0,0.9886,0.7880,"4,378,792"
