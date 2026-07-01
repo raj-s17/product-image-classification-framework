@@ -2,6 +2,9 @@
 
 An end-to-end fashion product image classification project: a **Kaggle training pipeline** (Custom CNN, MobileNetV2, ResNet50 + Grad-CAM/SHAP explainability) and a **Streamlit web app** that serves the best model (fine-tuned ResNet50) with Grad-CAM visualisations for each prediction.
 
+🔗 **Live app:** [pic-ml.streamlit.app](https://pic-ml.streamlit.app/)
+📓 **Kaggle notebook:** [product-image-classification-framework](https://www.kaggle.com/code/rajsinghh/product-image-classification-framework)
+
 **Dataset:** [Fashion Products Images – Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/e-commerce-products-images)
 
 ## Categories
@@ -65,11 +68,13 @@ ResNet50 gave the best overall accuracy/F1 and is the model shipped with the Str
 
 ### Running the notebook
 
-Open `kaggle/notebooks/product-image-classification-framework.ipynb` on [Kaggle](https://www.kaggle.com) (or any Jupyter environment) and attach the [Fashion Products Images dataset](https://www.kaggle.com/datasets/bhavikjikadara/e-commerce-products-images). All required libraries (TensorFlow, scikit-learn, OpenCV, SHAP, etc.) are preinstalled in the Kaggle notebook environment.
+The notebook is published on Kaggle at [kaggle.com/code/rajsinghh/product-image-classification-framework](https://www.kaggle.com/code/rajsinghh/product-image-classification-framework) — open it there and hit "Copy & Edit" to run it with the [Fashion Products Images dataset](https://www.kaggle.com/datasets/bhavikjikadara/e-commerce-products-images) already attached. All required libraries (TensorFlow, scikit-learn, OpenCV, SHAP, etc.) are preinstalled in the Kaggle notebook environment. Alternatively, run `kaggle/notebooks/product-image-classification-framework.ipynb` locally in Jupyter after attaching the dataset yourself.
 
 ## 2. Web App (Streamlit)
 
 A Streamlit app that classifies an uploaded product image into one of the five categories using the fine-tuned ResNet50 model, with Grad-CAM overlays explaining each prediction.
+
+🔗 **Try it live:** [pic-ml.streamlit.app](https://pic-ml.streamlit.app/)
 
 ### Setup
 
@@ -90,3 +95,7 @@ streamlit run app.py
 - **Streamlit** — web UI
 - **OpenCV** — Grad-CAM heatmap overlay
 - **NumPy / Pillow** — image preprocessing
+
+## License / Credits
+
+Dataset courtesy of [bhavikjikadara on Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/e-commerce-products-images).
