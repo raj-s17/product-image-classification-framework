@@ -69,7 +69,9 @@ ResNet50 gave the best overall accuracy/F1 and is the model shipped with the Str
 ### Running the notebook
 
 The notebook is published on Kaggle at [kaggle.com/code/rajsinghh/product-image-classification-framework](https://www.kaggle.com/code/rajsinghh/product-image-classification-framework) — open it there and hit "Copy & Edit" to run it with the [Fashion Products Images dataset](https://www.kaggle.com/datasets/bhavikjikadara/e-commerce-products-images) already attached. 
+
 All required libraries (TensorFlow, scikit-learn, OpenCV, SHAP, etc.) are preinstalled in the Kaggle notebook environment. 
+
 Alternatively, run `kaggle/notebooks/product-image-classification-framework.ipynb` locally in Jupyter after attaching the dataset yourself.
 
 ## 2. Web App (Streamlit)
