@@ -1,0 +1,42 @@
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+[data-testid="stFileUploader"] {
+    border: 2px dashed #4CAF50;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+[data-testid="metric-container"] {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.streamlit-expanderHeader {
+    font-weight: bold;
+}
+
+.stAlert {
+    border-radius: 15px;
+}
