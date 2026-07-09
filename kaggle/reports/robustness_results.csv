@@ -1,0 +1,61 @@
+Corruption,Severity,Model,Accuracy
+Blur,0,Custom CNN,0.9755
+Blur,0,MobileNetV2,0.9885
+Blur,0,ResNet50,0.9905
+Blur,1,Custom CNN,0.9695
+Blur,1,MobileNetV2,0.9875
+Blur,1,ResNet50,0.99
+Blur,2,Custom CNN,0.958
+Blur,2,MobileNetV2,0.9835
+Blur,2,ResNet50,0.9855
+Blur,3,Custom CNN,0.9175
+Blur,3,MobileNetV2,0.972
+Blur,3,ResNet50,0.9805
+Noise,0,Custom CNN,0.9755
+Noise,0,MobileNetV2,0.9885
+Noise,0,ResNet50,0.9905
+Noise,1,Custom CNN,0.5485
+Noise,1,MobileNetV2,0.967
+Noise,1,ResNet50,0.982
+Noise,2,Custom CNN,0.521
+Noise,2,MobileNetV2,0.9255
+Noise,2,ResNet50,0.9635
+Noise,3,Custom CNN,0.4875
+Noise,3,MobileNetV2,0.768
+Noise,3,ResNet50,0.928
+Brightness,0,Custom CNN,0.9755
+Brightness,0,MobileNetV2,0.9885
+Brightness,0,ResNet50,0.9905
+Brightness,1,Custom CNN,0.977
+Brightness,1,MobileNetV2,0.987
+Brightness,1,ResNet50,0.987
+Brightness,2,Custom CNN,0.8365
+Brightness,2,MobileNetV2,0.985
+Brightness,2,ResNet50,0.983
+Brightness,3,Custom CNN,0.899
+Brightness,3,MobileNetV2,0.964
+Brightness,3,ResNet50,0.9535
+Occlusion,0,Custom CNN,0.9755
+Occlusion,0,MobileNetV2,0.9885
+Occlusion,0,ResNet50,0.9905
+Occlusion,1,Custom CNN,0.953
+Occlusion,1,MobileNetV2,0.9115
+Occlusion,1,ResNet50,0.839
+Occlusion,2,Custom CNN,0.906
+Occlusion,2,MobileNetV2,0.7495
+Occlusion,2,ResNet50,0.698
+Occlusion,3,Custom CNN,0.683
+Occlusion,3,MobileNetV2,0.5905
+Occlusion,3,ResNet50,0.6515
+JPEG,0,Custom CNN,0.976
+JPEG,0,MobileNetV2,0.9885
+JPEG,0,ResNet50,0.99
+JPEG,1,Custom CNN,0.9685
+JPEG,1,MobileNetV2,0.986
+JPEG,1,ResNet50,0.99
+JPEG,2,Custom CNN,0.9665
+JPEG,2,MobileNetV2,0.9845
+JPEG,2,ResNet50,0.987
+JPEG,3,Custom CNN,0.9395
+JPEG,3,MobileNetV2,0.979
+JPEG,3,ResNet50,0.9815
