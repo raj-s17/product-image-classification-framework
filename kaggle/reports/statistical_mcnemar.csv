@@ -1,0 +1,2 @@
+comparison,b,c,test,p_value,verdict
+ResNet50 vs MobileNetV2,41,34,chi-square (continuity corrected),0.4884,NO statistically significant difference
