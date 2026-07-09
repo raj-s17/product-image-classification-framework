@@ -1,0 +1,7 @@
+,precision,recall,f1-score,support
+Accessories,0.3651,0.575,0.4466,40.0
+Apparel,0.6042,0.725,0.6591,40.0
+Footwear,1.0,0.0588,0.1111,34.0
+micro avg,0.4779,0.4737,0.4758,114.0
+macro avg,0.6564,0.4529,0.4056,114.0
+weighted avg,0.6383,0.4737,0.4211,114.0
